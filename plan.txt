@@ -1,0 +1,36 @@
+Development Plan 
+
+
+API 
+[ ] Fix "create_product" route 
+[ ] Implement mailer for order confirmations and password resets
+[ ] Implement update routes for user ( email ,  password reset , address management )
+[ ] Implement payment routes in REST API 
+    PAYMENT TYPES: 
+    * Card Number
+    * Apple Pay 
+    * Paypal 
+    * Crypto? 
+ 
+[ ] Test Payment routes
+[ ] Create search handlers in REST API
+[ ] Test order routes[CRUD] <- Dependent on product routes
+[ ] Test Transaction Routes [CRUD]  <- Dependent on order and product routes
+[ ] Test mailer
+
+
+Client
+[ ] Landing Page { Social Media Links }  
+[ ] Footer  
+[ ] Account Page
+    [ ] Change Email 
+    [ ] Manage Stored Address 
+    [ ]
+[ ] Create some mock products to test ui 
+[ ] Cart Item Components 
+[ ] product recommendation based on cart and current viewed item ( carousel )
+[ ] Create transaction recipt page ( make an easy download pdf of the recipt too )
+[ ] User view for Orders 
+    [ ] (Nested) Add link to transaction recipt for each order in their account as well 
+[ x ] Create checkout form in react 
+[ x ] Cart Logic Handlers ( add item , remove item , edit qty , clear cart ) --> in prev implemented context
